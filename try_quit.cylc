@@ -1,0 +1,12 @@
+{ #t { 1 2 + } { 3 4 + } if } exec print 
+{ #f { 1 2 + } { 3 4 + } if } exec print 
+{ #t { 5 2 / } { 10 5 / } if } exec print 
+{ { 6 3 * } exec 7 + } exec print 
+
+quit
+
+Should not get to this point in the file!
+
+I don't know what else to write so here's a link to the bee movie script:
+https://courses.cs.washington.edu/courses/cse163/20wi/files/lectures/L04/bee-movie.txt
+

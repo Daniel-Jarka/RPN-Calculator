@@ -1,0 +1,22 @@
+{ #t { 1 2 + } { 3 4 + } if } exec print 
+{ #f { 1 2 + } { 3 4 + } if } exec print 
+{ #t { 5 2 / } { 10 5 / } if } exec print 
+{ { 6 3 * } exec 7 + } exec print 
+
+{ 3 4 < print } exec
+{ 5 2 > print } exec
+
+3 4 < { 1 2 + print } { 5 6 + print } if 
+10 10 == { 100 200 + print } { 0 print } if
+
+exec 
+{ } exec 
+clear print
+#t exec
+4 0 / 
+4 0 mod 
+
+{ #t { 5 2 / } { 10 5 / } if } exec 2 >
+{ { #t { 1 2 + } { 3 4 + } if } exec }
+{ { #f { 1 2 + } { 3 4 + } if } exec }
+if print

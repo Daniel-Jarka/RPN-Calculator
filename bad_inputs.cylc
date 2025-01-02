@@ -1,0 +1,3 @@
+3 exec #t exec print
+#TRUE #FALSE #123 # 32 drop #true #false ## #truE print
+#t 3 4 if #f 3 { yippe } if #t { what } 4 if #T { yes } { no } if print
